@@ -5,3 +5,7 @@
 .visible {
   display: block;
 }
+
+h2:hover {
+  cursor: pointer;
+}

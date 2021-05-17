@@ -1,3 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px 20px 10px;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+}
+
 .hidden {
   display: none;
 }
@@ -6,6 +17,49 @@
   display: block;
 }
 
+h1 {
+  font-size: 15vmin;
+}
+
+h2 {
+  font-size: 10vmin;
+}
+
 h2:hover {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color:cornflowerblue;
+}
+
+img {
+  max-width: 70px;
+
+}
+
+#chess {
+  font-family: 'Press Start 2P';
+}
+
+#project-playlist {
+  font-family: 'Comfortaa', cursive;
+}
+
+#shortlit {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#photo-filter {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  /* background-color: darkblue; */
+  padding: 10px;
 }

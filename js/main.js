@@ -1,12 +1,16 @@
 const divEl = document.getElementById('main-div');
-const h1Els = [...document.querySelectorAll('#main-div h2')];
+const h1Els = [...document.querySelectorAll('#main-div div')];
 
 divEl.addEventListener('click', handleShow);
 divEl.addEventListener('mouseover', handleExpand);
 divEl.addEventListener('mouseout', handleShrink);
 
 function handleExpand(evt) {
-  if (!h1Els.includes(evt.target)) return;
+  if (!h1Els.includes(evt.target)) {
+    return;
+  } else {
+    console.log('hell yeah');
+  }
 }
 
 function handleShrink(evt) {

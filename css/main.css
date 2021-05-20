@@ -140,18 +140,12 @@ body > h1 {
 }
 
 @media only screen and (max-width: 1035px) {
-  nav > h1 {
-    display: none;
-  }
-
-  body > h1 {
-    display: block;
-    margin-top: 4vmin;
-    font-size: 10vmin;
-  }
-
   div {
     font-size: 12vmin;
+  }
+  
+  nav {
+    width: 80vw;
   }
 }
 

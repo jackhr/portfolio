@@ -41,7 +41,23 @@ a {
 }
 
 img {
-  max-width: 70px;
+  max-width: 100px;
+}
+
+#phone-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+#phone-div > img {
+  max-width: 55px;
+}
+
+#phone-div > a {
+  font-size: 5vmin;
+  margin-left: 2vmin;
 }
 
 div {
@@ -112,6 +128,15 @@ body > h1 {
   max-width: 25vw;
   max-height: 60vh;
   margin-right: 2vmin;
+}
+
+#contact-div {
+  /* background: lightgreen; */
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1035px) {

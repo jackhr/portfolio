@@ -7,7 +7,7 @@ body {
   padding: 10px 10vw 10px;
   text-align: center;
   font-family: 'Play', sans-serif;
-  background-color: ivory;
+  background-color: rgb(255, 255, 240);
 }
 
 .hidden {
@@ -24,6 +24,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .transform {
@@ -68,7 +69,7 @@ div {
 }
 
 nav {
-  margin: 8vmin auto 0;
+  margin: 8vmin auto 8vmin;
   display: flex;
   width: 75%;
   justify-content: space-around;
@@ -76,7 +77,11 @@ nav {
   padding: 10px;
 }
 
-nav > h1 {
+nav > a {
+  font-size: 5vmin;
+}
+
+nav > a > h1 {
   margin: 0;
 }
 
@@ -87,6 +92,26 @@ body > h1 {
 
 #main-div {
   margin-top: 12vh;
+}
+
+#about {
+  color: rgb(59, 86, 128);
+  line-height: 6vmin;
+  font-size: 4vmin;
+  margin-top: -10px;
+  text-align: left;
+}
+
+#about-div {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+#about-img {
+  max-width: 25vw;
+  max-height: 60vh;
+  margin-right: 2vmin;
 }
 
 @media only screen and (max-width: 1035px) {

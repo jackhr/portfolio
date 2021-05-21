@@ -7,7 +7,7 @@ const navProjectsEl = document.getElementById('nav-projects');
 const navContactEl = document.getElementById('nav-contact');
 const navEls = [navAboutEl, navProjectsEl, navContactEl];
 
-navProjectsEl.style.transform = 'scale(1.3)';
+navAboutEl.style.transform = 'scale(1.3)';
 
 navEl.addEventListener('click', (evt) => {
   const text = evt.target.innerHTML;

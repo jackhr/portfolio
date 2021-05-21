@@ -110,8 +110,12 @@ nav > a {
   text-align: left;
 }
 
-#about-div {
+#projects-div {
   display: none;
+}
+
+#about-div {
+  display: flex;
   align-items:flex-start;
   justify-content: space-between;
 }

@@ -25,6 +25,7 @@ h1 {
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .transform {
@@ -34,9 +35,7 @@ a {
 }
 
 .transform:hover {
-  position: relative;
   transform: scale(1.2, 1.2);
-  cursor: pointer;
   z-index: 2;
 }
 
@@ -97,17 +96,10 @@ nav > a {
   font-size: 5vmin;
 }
 
-nav > a > h1 {
-  margin: 0;
-}
 
-body > h1 {
-  margin: 0;
-  display: none;
-}
 
-#main-div {
-  margin-top: 12vh;
+.transform > .chess {
+  font-size: 12vmin;
 }
 
 #about {
@@ -119,7 +111,7 @@ body > h1 {
 }
 
 #about-div {
-  display: flex;
+  display: none;
   align-items:flex-start;
   justify-content: space-between;
 }
@@ -131,6 +123,10 @@ body > h1 {
 }
 
 #contact-div {
+  display: none;
+}
+
+#icon-div {
   height: 50vh;
   display: flex;
   align-items: center;

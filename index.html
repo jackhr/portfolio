@@ -9,35 +9,61 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-  <title>Portfolio</title>
+  <script defer src="./js/main.js"></script>
+  <title>JHR - Portfolio</title>
 </head>
 <body>
   <nav>
-    <a class="transform" href="about.html">About</a>
-    <a class="transform" href="index.html"><h1>Jack H-R</h1></a>
-    <a class="transform" href="contact.html">Contact</a>
+    <a id="nav-about"">About</a>
+    <a id="nav-projects"">Projects</a>
+    <a id="nav-contact"">Contact</a>
   </nav>
-  <div id="main-div">
-    <div class="transform"><a class="chess" href="https://jackhr.github.io/chess-project/" target="_blank">CHESS</a></div>
-    <div class="transform"><a class="project-playlist" href="https://playlist-the-project.herokuapp.com/" target="_blank">Project Playlist</a></div>
-    <div class="transform"><a class="photo-filter" href="https://photos-filtered.herokuapp.com/" target="_blank">Photo Filter</a></div>
-    <div class="transform"><a class="shortlit" href="https://short-lit.herokuapp.com/" target="_blank">ShortLit</a></div>
+  <div id="projects-div">
+    <div id="main-div">
+      <div class="transform"><a class="chess" href="https://jackhr.github.io/chess-project/" target="_blank">CHESS</a></div>
+      <div class="transform"><a class="project-playlist" href="https://playlist-the-project.herokuapp.com/" target="_blank">Project Playlist</a></div>
+      <div class="transform"><a class="photo-filter" href="https://photos-filtered.herokuapp.com/" target="_blank">Photo Filter</a></div>
+      <div class="transform"><a class="shortlit" href="https://short-lit.herokuapp.com/" target="_blank">ShortLit</a></div>
+    </div>
+    <footer>
+      let more_info = [
+        <a href="https://trello.com/b/Zl4Fhhcf/chess" target="_blank">
+          <span class="transform chess trello">CHESS</span>
+        </a>, 
+        <a href="https://trello.com/b/kNMdNzqr/project-playlist" target="_blank">
+          <span class="transform project-playlist trello">Project Playlist</span>
+        </a>, 
+        <a href="https://trello.com/b/qlb0VjWO/photo-filter" target="_blank">
+          <span class="transform photo-filter trello">Photo Filter</span>
+        </a>, 
+        <a href="https://trello.com/b/r4ptqNpw/shortlit" target="_blank">
+          <span class="transform shortlit trello">ShortLit</span>
+        </a>
+      ]
+    </footer>
   </div>
-  <footer>
-    let trelloBoards = [
-      <a class="" href="https://trello.com/b/Zl4Fhhcf/chess" target="_blank">
-        <span class="transform chess trello">CHESS</span>
-      </a>, 
-      <a class="" href="https://trello.com/b/kNMdNzqr/project-playlist" target="_blank">
-        <span class="transform project-playlist trello">Project Playlist</span>
-      </a>, 
-      <a class="" href="https://trello.com/b/qlb0VjWO/photo-filter" target="_blank">
-        <span class="transform photo-filter trello">Photo Filter</span>
-      </a>, 
-      <a class="" href="https://trello.com/b/r4ptqNpw/shortlit" target="_blank">
-        <span class="transform shortlit trello">ShortLit</span>
+  <div id="about-div">
+    <img id="about-img" src="./media/polaroid-1.JPG" alt="A close-up polaroid of Jack H-R looking at the camera.">
+    <h2 id="about">Born and raised on the island nation of Antigua & Barbuda in the heart of the Caribbean, Jack Fitzgerald Huntington-Rainey stems from a life of simplicity. Whether it’s dulcet tones he ushers forth during his musical gigs or developing code that seems to ‘cascade’ from his brain, Jack’s production is simple yet effective. A sudden and unexpected shift in the world's movements brought him to a new chapter in his life: coding. Having recently completed a 12 week long coding bootcamp at General Assembly, he now resides in the state of New York and remains committed to learning and more deeply understanding his now new love-craft that is coding.</h2>
+  </div>
+  <div id="contact-div">
+    <div id="phone-div">
+      <img src="./media/telephone.png" alt="">
+      <a href="tel:5204425655">
+        +1(520)442-5655
       </a>
-    ]
-  </footer>
+    </div>
+    <div id="icon-div">
+      <a class="transform" href="https://www.linkedin.com/in/jackhr/" target="_blank">
+        <img src="./media/linkedIn_logo.png" alt="LinkedIn logo.">
+      </a>
+      <a class="transform" href = "mailto: jackhr54@gmail.com">
+        <img src="./media/gmail_logo.png" alt="Gmail logo.">
+      </a>
+      <a class="transform" href="https://github.com/jackhr/" target="_blank">
+        <img src="./media/github_logo.png" alt="Github logo.">
+      </a>
+    </div>
+  </div>
 </body>
 </html>

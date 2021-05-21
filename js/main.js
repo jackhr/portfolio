@@ -24,7 +24,7 @@ navEl.addEventListener('click', (evt) => {
     aboutEl.style.display = 'none';
     contactEl.style.display = 'none';
     projectsEl.style.display = 'block';
-  } else {
+  } else if (text[0] === 'C') {
     count = 2;
     handleActive(count);
     aboutEl.style.display = 'none';

@@ -113,6 +113,10 @@ nav > a {
   font-size: 12vmin;
 }
 
+#nav-about {
+  transform: scale(1.3);
+}
+
 #about {
   color: rgb(59, 86, 128);
   line-height: 6vmin;

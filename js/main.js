@@ -33,7 +33,7 @@ navEl.addEventListener('click', (evt) => {
 
 function handleActive(count) {
   navEls.forEach((el, idx) => {
-    if(idx === count) {
+    if (idx === count) {
       el.style.transform = 'scale(1.3)';
       el.style.transition = 'all 0.2s linear';
     } else {
